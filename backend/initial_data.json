@@ -1,0 +1,157 @@
+[
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$320000$PcM4G9NDgfCciY7Dzk2AvD$MenL1jB1IhRwdBXLeLBM6vdKqK4E9B3YS1y5WHCeBFM=",
+            "last_login": null,
+            "is_superuser": true,
+            "username": "admin",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2022-06-17T15:18:18.743Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "api.movie",
+        "pk": 1,
+        "fields": {
+            "title": "Terminator",
+            "description": "A rogue robot from the future comes back in time to stop a future war."
+        }
+    },
+    {
+        "model": "api.movie",
+        "pk": 2,
+        "fields": {
+            "title": "Terminator 2",
+            "description": "Hes back baby, the terminator has come to save the day this time!"
+        }
+    },
+    {
+        "model": "api.movie",
+        "pk": 3,
+        "fields": {
+            "title": "The Avengers",
+            "description": "A group of super heroes has to save the world!"
+        }
+    },
+    {
+        "model": "api.movie",
+        "pk": 4,
+        "fields": {
+            "title": "Batman",
+            "description": "The batman has to save Gotham from a threat!"
+        }
+    },
+    {
+        "model": "api.movie",
+        "pk": 5,
+        "fields": {
+            "title": "The Avengers 2",
+            "description": "A group of super heroes has to save the world!"
+        }
+    },
+    {
+        "model": "api.movie",
+        "pk": 6,
+        "fields": {
+            "title": "The Avengers 3",
+            "description": "A group of super heroes has to save the world!"
+        }
+    },
+    {
+        "model": "api.movie",
+        "pk": 7,
+        "fields": {
+            "title": "The Avengers Age Of Ultron",
+            "description": "A group of super heroes has to save the world!"
+        }
+    },
+    {
+        "model": "api.actor",
+        "pk": 1,
+        "fields": {
+            "name": "Arnold S.",
+            "movies": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "model": "api.actor",
+        "pk": 2,
+        "fields": {
+            "name": "Scarlet J.",
+            "movies": [
+                3
+            ]
+        }
+    },
+    {
+        "model": "api.actor",
+        "pk": 3,
+        "fields": {
+            "name": "George C.",
+            "movies": [
+                4
+            ]
+        }
+    },
+    {
+        "model": "api.actor",
+        "pk": 4,
+        "fields": {
+            "name": "John S.",
+            "movies": [
+                2,
+                3,
+                4
+            ]
+        }
+    },
+    {
+        "model": "api.actor",
+        "pk": 5,
+        "fields": {
+            "name": "John M.",
+            "movies": [
+                2,
+                3,
+                4
+            ]
+        }
+    },
+    {
+        "model": "api.actor",
+        "pk": 6,
+        "fields": {
+            "name": "Lily H.",
+            "movies": [
+                2,
+                3,
+                4
+            ]
+        }
+    },
+    {
+        "model": "api.actor",
+        "pk": 7,
+        "fields": {
+            "name": "Bob B.",
+            "movies": [
+                2,
+                3,
+                4
+            ]
+        }
+    }
+
+]
+    
